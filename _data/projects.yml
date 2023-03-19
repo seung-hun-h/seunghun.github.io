@@ -1,16 +1,40 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
-
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: 데브니티(개발자 커뮤니티)
+  role: 백엔드 개발
+  duration: 2021.11.26 &mdash; 2021.12.21
+  url: https://github.com/prgrms-web-devcourse/Team_BbungCles_Devnity_BE
+  description: <ul class="resume-item-list">
+        <li>프로젝트 설명
+          <ul>
+            <li>프로그래머스 데브 코스 참가자를 위한 커뮤니티</li>
+            <li>자기 소개
+              <ul>
+                <li>프로필 이미지, 블로그, 깃허브 URL을 등록</li>
+                <li>자신의 활동 위치를 등록</li>
+                <li>마크다운 에디터로 자기소개 글을 작성</li>
+              </ul>
+            </li>
+            <li>모임
+              <ul>
+                <li>동아리/스터디/프로젝트를 함께할 인원 모집</li>
+                <li>카카오 지도 API를 기반으로 모각코를 함께할 인원 모집</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>담당한 부분
+          <ul>
+            <li>사용자, 자기소개 도메인 API 개발</li>
+            <li>Spring Security와 JWT를 이용한 인증, 인가 기능 개발</li>
+            <li>JUnit5를 이용한 테스트 코드 작성</li>
+          </ul>
+        </li>
+        <li>사용한 기술
+          <ul>
+            <li>Java, Spring MVC, Spring Data JPA, Querydsl, Spring Security, MySQL, JUnit5</li>
+            <li>Git, Notion</li>
+          </ul>
+        </li>
+      </ul>

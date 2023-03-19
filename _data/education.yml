@@ -1,13 +1,15 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: 프로그래머스 백엔드 데브코스
+  uni: 프로그래머스
+  year: 2021.07 &mdash; 2021.12
+  summary: Java, Spring 기반 백엔드 교육 참가
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+
+- degree: Bachelor of Science, Computer Engineering
+  uni: 건국대학교
+  year: 2019 &mdash; 2022
+  summary: 컴퓨터 공학부 복수전공
+
+- degree: Bachelor of Administration, Management of Technology
+  uni: 건국대학교
+  year: 2014 &mdash; 2022

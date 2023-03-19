@@ -1,0 +1,16 @@
+# 역량
+- title: 대용량 데이터 처리 및 성능 개선
+  content: <ul class="resume-item-list">
+      <li>Slow Query 튜닝
+        <ul>
+          <li>인덱스 탈 수 있도록 힌트 작성</li>
+          <li>UNION ALL로 구성된 쿼리를 'CASE-WHEN'구로 개선</li>
+        </ul>
+      </li>
+      <li>일 평균 1100만건 이상 데이터 자동 검수 시스템 개발
+        <ul>
+          <li>메세지 큐(Apache Kafka)를 활용한 애플리케이션 개발</li>
+          <li>API / Batch 개발</li>
+        </ul>
+      </li>
+    </ul>

@@ -1,12 +1,8 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+# Backend
+- skill: Backend
+  description: <ul class="resume-item-list"><li>Java</li><li>Spring Boot, Spring MVC, Spring Batch, String Kafka</li><li>Mybatis, JPA</li><li>Maven</li><li>Intellij</li></ul>
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
-
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+# DevOps
+- skill: DevOps
+  description: <ul class="resume-item-list"><li>MySql, Oracle</li><li>Apache Http Server</li><li>Pinpoint</li></ul>
