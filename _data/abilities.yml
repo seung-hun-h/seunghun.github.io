@@ -1,16 +1,21 @@
 # 역량
 - title: 대용량 데이터 처리 및 성능 개선
-  content: <ul class="resume-item-list">
-      <li>Slow Query 튜닝
+  content:
+      <h3> Slow Query 튜닝</h3>
         <ul>
-          <li>인덱스 탈 수 있도록 힌트 작성</li>
-          <li>UNION ALL로 구성된 쿼리를 'CASE-WHEN'구로 개선</li>
+          <li><strong>레거시 이전 중 쿼리 개선</strong><br/>
+            - INNER JOIN을 사용하고 있던 쿼리를 EXISTS를 사용하도록 변경<br/>
+            - 관습적으로 사용하고 있던 힌트를 변경 및 제거하여 성능 개선<br/>
+          </li>
+          <li><strong>서브 쿼리, UNION ALL의 사용으로 불필요하게 테이블에 접하는 쿼리 개선</strong><br/>
+            - 동영상마다 유해 정도를 나타내는 지수를 가져오는 쿼리가 SELECT구에서 서브쿼리로 작성되어 있던 것을 JOIN을 사용하여 해결<br/>
+            - 음원 저작권 검수 결과 집계 쿼리가 UNION ALL로 작성되어 각 검수 결과를 집계하기 위해 매번 테이블에 접근 하던 쿼리를 SELECT구에서 'CASE WHEN'을 사용해 한 번만 테이블에 접근하도록 변경
+          </li>
         </ul>
-      </li>
-      <li>일 평균 1100만건 이상 데이터 자동 검수 시스템 개발
+      <h3>일 평균 1100만건 이상 데이터 자동 검수 시스템 개발</h3>
         <ul>
-          <li>메세지 큐(Apache Kafka)를 활용한 애플리케이션 개발</li>
+          <li><strong>메세지 큐(Apache Kafka)를 활용한 애플리케이션 개발</strong><br/>
+            - 불규칙적으로 발생하는 처리가 오래걸리는 작업으로 인해 빈번하게 발생하던 리밸런싱을 'max.poll.interval.ms'와 'max.poll.records' 값을 조정하여 해결
+          </li>
           <li>API / Batch 개발</li>
         </ul>
-      </li>
-    </ul>
