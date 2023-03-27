@@ -1,7 +1,7 @@
 # Skills
 # Backend
 - skill: Backend
-  description: <ul class="resume-item-list"><li>Java</li><li>Spring Boot, Spring MVC, Spring Batch, String Kafka</li><li>Mybatis, JPA</li><li>Maven</li><li>Intellij</li></ul>
+  description: <ul class="resume-item-list"><li>Java</li><li>Spring Boot, Spring MVC, Spring Batch</li><li>Mybatis, JPA</li><li>Apache Kafka</li><li>Maven</li><li>Intellij</li></ul>
 
 # DevOps
 - skill: DevOps
