@@ -3,9 +3,5 @@
 - company: 엔테크서비스(N Tech Service)
   position: Java & Spring 백엔드 개발자
   duration: 2022.02.21 ~ 현재
-  summary: 네이버의 다양한 서비스에서 생성되는 동영상, 이미지 모니터링 시스템을 개발했습니다. 동영상, 이미지 자동 검수 시스템과 검수자들을 위한 수동 검수 시스템을 개발했습니다. 
-    <ul class="resume-item-list">
-      <li>Java, Spring, Vue.js, Mybatis, MySql, Oracle, Apache Kafka</li>
-      <li>레거시 검수 시스템 개편</li>
-      <li>MySql 쿼리 튜닝</li>
-    </ul>
+  summary: 네이버의 다양한 서비스에서 생성되는 UGC 통합 모니터링 시스템을 개발했습니다. 
+    일평균 1100만건의 멀티미디어(이미지/비디오)를 처리할 수 있는 멀티미디어 필터링 시스템과 검수자들을 위한 웹 기반의 모니터링 시스템을 개발했습니다. 

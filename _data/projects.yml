@@ -1,40 +1,23 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-- project: 데브니티(개발자 커뮤니티)
+- project: 엔테크서비스 - 멀티미디어 필터링 시스템
   role: 백엔드 개발
-  duration: 2021.11.26 &mdash; 2021.12.21
-  url: https://github.com/prgrms-web-devcourse/Team_BbungCles_Devnity_BE
+  duration: 2022.05 &mdash;
   description: <ul class="resume-item-list">
-        <li>프로젝트 설명
-          <ul>
-            <li>프로그래머스 데브 코스 참가자를 위한 커뮤니티</li>
-            <li>자기 소개
-              <ul>
-                <li>프로필 이미지, 블로그, 깃허브 URL을 등록</li>
-                <li>자신의 활동 위치를 등록</li>
-                <li>마크다운 에디터로 자기소개 글을 작성</li>
-              </ul>
-            </li>
-            <li>모임
-              <ul>
-                <li>동아리/스터디/프로젝트를 함께할 인원 모집</li>
-                <li>카카오 지도 API를 기반으로 모각코를 함께할 인원 모집</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>담당한 부분
-          <ul>
-            <li>사용자, 자기소개 도메인 API 개발</li>
-            <li>Spring Security와 JWT를 이용한 인증, 인가 기능 개발</li>
-            <li>JUnit5를 이용한 테스트 코드 작성</li>
-          </ul>
-        </li>
-        <li>사용한 기술
-          <ul>
-            <li>Java, Spring MVC, Spring Data JPA, Querydsl, Spring Security, MySQL, JUnit5</li>
-            <li>Git, Notion</li>
-          </ul>
-        </li>
+        <li>일평균 1100만건 멀티미디어(이미지/비디오) 데이터 처리</li>
+        <li>멀티미디어 필터링 로직 구현</li>
+        <li>외부 API 연동</li>
+        <li>데이터 재필터링 및 집계를 위한 Batch 개발</li>
+        <li>Java8, Spring, Spring Boot, Spring Batch, Apache Kafka, Oracle, MySQL</li>
       </ul>
+
+- project: 엔테크서비스 - 통합 모니터링 웹 시스템
+  role: 백엔드, 프론트 엔드 개발
+  duration: 2022.05 &mdash;
+  description: <ul class="resume-item-list">
+      <li>멀티미디어 및 컨텐츠(게시글, 댓글) 검수 시스템</li>
+      <li>검수를 위한 화면, API 개발</li>
+      <li>Slow query 튜닝</li>
+      <li>Java11, Spring, Spring Boot, Vue2, Oracle</li>
+    </ul>
